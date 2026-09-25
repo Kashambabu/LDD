@@ -1,0 +1,17 @@
+# Core Linux Kernel Module & Object Files
+*.o
+*.ko
+
+# Compilation Command Tracking Files
+.*.cmd
+
+# Build & Modpost Metadata
+*.mod
+*.mod.c
+*.mod.o
+modules.order
+Module.symvers
+
+# Temporary & Alternate Target Artifacts
+*.ko.unsigned
+*.cmd
